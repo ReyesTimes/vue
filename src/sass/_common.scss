@@ -17,3 +17,61 @@
         }
     }
 }
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media (min-width: 576px) {
+        max-width: 540px;
+    }
+
+    @media (min-width: 768px) {
+        max-width: 720px;
+    }
+    
+    @media (min-width: 992px) {
+        max-width: 960px;
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 1140px;
+    }
+}
+
+.quantity {
+    &--text{
+        position: relative;
+        
+        &:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            background-color: #ffcb28;
+            left: 0px;
+            bottom: 2px;
+            z-index: -1;
+        }
+    }
+}
+
+.btn {
+    position: relative;
+    background-color: #fff;
+    border: 2px solid #ffcb28;
+    letter-spacing: 1px;
+    margin-top: 1em;
+    font-family: 'Oswald', sans-serif;
+    padding: 0.5em 0.75em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    overflow: hidden;
+
+    &:hover {
+        background-color: #ffcb28;
+    }
+}

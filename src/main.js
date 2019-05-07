@@ -1,18 +1,18 @@
-import Vue from 'vue'
-import App from './App.vue'
-import store from './store'
+import Vue from 'vue';
+import App from './App.vue';
+import router from './router';
+import store from './store';
 
-import formatMoney from '@/filter/format-money'
+import formatMoney from '@/filter/format-money';
 
-Vue.use(formatMoney)
+import '@/sass/index.scss';
 
-Vue.config.productionTip = false
+Vue.use(formatMoney);
 
-import '@/sass/index.scss'
-import router from './router'
+Vue.config.productionTip = false;
 
 new Vue({
-  store,
   router,
-  render: h => h(App)
-}).$mount('#app')
+  store,
+  render: h => h(App),
+}).$mount('#app');

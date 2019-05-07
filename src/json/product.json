@@ -1,0 +1,23 @@
+[
+    {
+        "ProductId": 0,
+        "ImgMedia": "https://www.niteequip.com/siteart/Tractors/CompactUtilityTractors.jpg",
+        "ProductBrand": "Prinoth",
+        "ProductName": "Mercado",
+        "Prize": "200000"
+    },
+    {
+        "ProductId": 1,
+        "ImgMedia": "https://www.niteequip.com/siteart/Tractors/CompactUtilityTractors.jpg",
+        "ProductBrand": "Prinoth",
+        "ProductName": "Wheeler",
+        "Prize": "220911"
+    },
+    {
+        "ProductId": 2,
+        "ImgMedia": "https://www.niteequip.com/siteart/Tractors/CompactUtilityTractors.jpg",
+        "ProductBrand": "Prinoth",
+        "ProductName": "Pam",
+        "Prize": "190229"
+    }
+]
