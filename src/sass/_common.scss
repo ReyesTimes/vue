@@ -1,0 +1,19 @@
+.text {
+    &-red {
+        color: $red;
+        
+        &-border {
+            position: relative;
+            
+            &::after {
+                content: '';
+                position: absolute;
+                width: 20px;
+                height: 4px;
+                left: 0px;
+                top: 110%;
+                background-color: $red;
+            }
+        }
+    }
+}

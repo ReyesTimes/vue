@@ -1,0 +1,68 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+
+h2{
+  font-weight: none;
+}
+
+h3{
+  -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+h3:before{margin:0;}
+h3:after{margin:0;}
+h2:before{margin:0;}
+h2:after{margin:0;}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+button{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  box-shadow:none;
+
+  cursor: pointer;
+}
+ 
+/* No olvides definir estilos para focus */
+:focus {
+  outline: 0;
+}
+
+* {
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+}

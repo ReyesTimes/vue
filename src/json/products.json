@@ -1,0 +1,20 @@
+[
+    {
+        "code": "VOUCHER",
+        "name": "Peppa pig voucher",
+        "prize": "5",
+        "url_img": "https://media.wired.com/photos/5932aabe58b0d64bb35d32a6/master/w_600,c_limit/peppa.jpg"
+    },
+    {
+        "code": "TSHIRT",
+        "name": "Avengers end game t-shirt",
+        "prize": "20",
+        "url_img": "https://images.bewakoof.com/t540/avengers-endgame-half-sleeve-t-shirt-avl-men-s-printed-t-shirts-205505-1544865565.jpg"
+    },
+    {
+        "code": "MUG",
+        "name": "Salad mug",
+        "prize": "7.5",
+        "url_img": "https://cdn.shopify.com/s/files/1/0033/1441/7782/products/MU---_-WHI-DAV017__196_1024x1024@2x.jpg?v=1529336036"
+    }
+]
